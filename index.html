@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="grid-parent">
+        
+        <input type="text" id="textArea" class="grid-a" placeholder="0">
+        <button onclick ="calc(7)" class="grid grid-b"><p class="nuber">7</p></button>
+        <button  onclick ="calc(8)" class="grid grid-b"><p class="nuber">8</p></button>
+        <button  onclick ="calc(9)" class="grid grid-b"><p class="nuber">9</p></button>
+        <button  onclick ="calc('+')" class="grid grid-c"><p class="nubers-1">+</p></button>
+        <button  onclick ="calc(4)" class="grid grid-b"><p class="nuber">4</p></button>
+        <button  onclick ="calc(5)" class="grid grid-b"><p class="nuber">5</p></button>
+        <button  onclick ="calc(6)" class="grid grid-b"><p class="nuber">6</p></button>
+        <button  onclick ="calc('-')" class="grid grid-c"><p class="nuber-1">-</p></button>
+        <button  onclick ="calc(1)" class="grid grid-b"><p class="nuber">1</p></button>
+        <button  onclick ="calc(2)" class="grid grid-b"><p class="nuber">2</p></button>
+        <button  onclick ="calc(3)" class="grid grid-b"><p class="nuber">3</p></button>
+        <button  onclick ="calc('*')" class="grid grid-c"><p class="nubers-1">*</p></button>
+        <button  onclick ="clearInput()" class="grid grid-d"><p class="nubers-1">C</p></button>
+        <button  onclick ="calc(0)" class="grid grid-b"><p class="nuber">0</p></button>
+        <button  onclick ="equalTo()" class="grid grid-c"><p class="nubers-1">=</p></button>
+        <button  onclick ="calc('/')" class="grid grid-c"><p class="nubers-1">/</p></button>
+        <button  onclick ="deleteInput()" class="grid grid-c"><p class="nubers-1">Del</p></button>
+        <button  onclick ="calc('%')" class="grid grid-c"><p class="nubers-1">%</p></button>
+        <button  onclick ="calc('.')" class="grid grid-c"><p class="nubers-1">.</p></button>
+        <button  onclick ="clearInput()" class="grid grid-c"><p class="nubers-1">Clr</p></button>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>
